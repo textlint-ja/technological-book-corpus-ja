@@ -1,0 +1,44 @@
+{
+  "directories": {
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "bin/",
+    "source/"
+  ],
+  "name": "technological-book-corpus-ja",
+  "version": "1.0.0",
+  "description": "日本語で書かれた技術書のコーパス",
+  "main": "lib/technological-book-corpus-ja.js",
+  "scripts": {
+    "build": "gulp",
+    "update-refs": "git submodule foreach git pull",
+    "test": "mocha"
+  },
+  "keywords": [
+    "textlint",
+    "japanese",
+    "book",
+    "corpus",
+    "natural-language"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/textlint-ja/technological-book-corpus-ja.git"
+  },
+  "bugs": {
+    "url": "https://github.com/textlint-ja/technological-book-corpus-ja/issues"
+  },
+  "homepage": "https://github.com/textlint-ja/technological-book-corpus-ja",
+  "dependencies": {
+    "globby": "^6.1.0"
+  },
+  "devDependencies": {
+    "add-text-to-markdown": "^2.0.0",
+    "cpx": "^1.5.0",
+    "mocha": "^3.2.0"
+  }
+}
