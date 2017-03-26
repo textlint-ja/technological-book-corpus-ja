@@ -3,6 +3,7 @@
 日本語技術書のコーパス。
 
 日本語の再配布が可能な技術書を集めたものです。
+商用利用できないライセンスを含みます。
 
 ## 収集対象
 
@@ -14,6 +15,18 @@
 **条件に含んでいないもの**
 
 - 校正が十分に行われているかどうか(校正済みの文書を収集するものではない)
+
+## 利用目的
+
+- [textlint](https://github.com/textlint/textlint "textlint")ルールのテストのfixtureとして
+
+例) コーパスに含まれている文章に対してtextlintでチェックしていとしない結果がないかを確かめる
+
+```sh
+npm i -g textlint technological-book-corpus-ja
+# 試したいルールをlib/において試す
+technological-book-corpus-ja  | xargs textlint --rulesdir lib/ -f pretty-error
+```
 
 ## Install
 
