@@ -8,3 +8,6 @@
 	path = repo/The-Little-Book-on-CoffeeScript
 	url = https://github.com/minghai/library
 	branch = gh-pages
+[submodule "repo/js-primer"]
+	path = repo/js-primer
+	url = https://github.com/asciidwango/js-primer

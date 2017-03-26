@@ -3,6 +3,11 @@
 const globby = require('globby');
 const path = require("path");
 const References = {
+    "js-primer": {
+        name: "js-primer",
+        url: "https://github.com/asciidwango/js-primer",
+        license: "https://github.com/asciidwango/js-primer/blob/master/LICENSE"
+    },
     "JavaScript-Plugin-Architecture": {
         name: "JavaScript-Plugin-Architecture",
         url: "https://github.com/azu/JavaScript-Plugin-Architecture",

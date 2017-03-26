@@ -47,6 +47,8 @@ module.exports.get = function get(ext = ".*") {};
 このコーパスは次の文書を含んでいます。
 それぞれの文書のライセンスに基づき再配布されています。
 
+- [js-primer](https://github.com/asciidwango/js-primer)
+  - License: <https://github.com/asciidwango/js-primer/blob/master/LICENSE>
 - [JavaScript-Plugin-Architecture](https://github.com/azu/JavaScript-Plugin-Architecture)
   - License: <https://github.com/azu/JavaScript-Plugin-Architecture#license>
 - [Introduction-to-Add-on-Development-in-Blender](https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender)
