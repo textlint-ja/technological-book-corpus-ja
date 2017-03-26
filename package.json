@@ -14,7 +14,7 @@
   "description": "日本語で書かれた技術書のコーパス",
   "main": "lib/technological-book-corpus-ja.js",
   "scripts": {
-    "build": "gulp",
+    "build": "node build.js",
     "update-refs": "git submodule foreach git pull",
     "test": "npm run build && mocha",
     "prepublish": "npm run build"
