@@ -14,3 +14,6 @@
 [submodule "repo/progit"]
 	path = repo/progit
 	url = https://github.com/progit/progit
+[submodule "repo/what-is-maven"]
+	path = repo/what-is-maven
+	url = https://github.com/KengoTODA/what-is-maven

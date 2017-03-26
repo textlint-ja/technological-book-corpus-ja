@@ -37,6 +37,7 @@ function copyTask() {
         copy(Refs["Introduction-to-Add-on-Development-in-Blender"], "body/chapter_**/*.md"),
         copy(Refs["The-Little-Book-on-CoffeeScript"], "coffeescript/chapters/ja_JP/**/*.md"),
         copy(Refs["progit"], "ja/**/*.{md,markdown}"),
+        copy(Refs["what-is-maven"], "{deploy,implement-plugin,module,primer}/**/*.md"),
     ]);
 }
 

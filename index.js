@@ -27,6 +27,11 @@ const References = {
         name: "progit",
         url: "https://github.com/progit/progit",
         license: "https://git-scm.com/book/en/v2"
+    },
+    "what-is-maven": {
+        name: "what-is-maven",
+        url: "https://github.com/KengoTODA/what-is-maven",
+        license: "https://github.com/KengoTODA/what-is-maven/blob/master/preface.md#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9"
     }
 };
 
