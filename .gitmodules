@@ -11,3 +11,6 @@
 [submodule "repo/js-primer"]
 	path = repo/js-primer
 	url = https://github.com/asciidwango/js-primer
+[submodule "repo/progit"]
+	path = repo/progit
+	url = https://github.com/progit/progit

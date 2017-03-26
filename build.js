@@ -35,7 +35,8 @@ function copyTask() {
         copy(Refs["js-primer"], "source/basic/**/*.md"),
         copy(Refs["JavaScript-Plugin-Architecture"], "ja/**/*.md"),
         copy(Refs["Introduction-to-Add-on-Development-in-Blender"], "body/chapter_**/*.md"),
-        copy(Refs["The-Little-Book-on-CoffeeScript"], "coffeescript/chapters/ja_JP/**/*.md")
+        copy(Refs["The-Little-Book-on-CoffeeScript"], "coffeescript/chapters/ja_JP/**/*.md"),
+        copy(Refs["progit"], "ja/**/*.{md,markdown}"),
     ]);
 }
 

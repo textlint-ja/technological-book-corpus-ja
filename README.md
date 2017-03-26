@@ -92,6 +92,8 @@ module.exports.get = function get(ext = ".*") {};
   - License: <https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender/blob/draft/LICENSE>
 - [The-Little-Book-on-CoffeeScript](https://github.com/minghai/library/tree/gh-pages)
   - License: <https://github.com/minghai/library/tree/gh-pages>
+- [progit](https://github.com/progit/progit)
+  - License: <https://git-scm.com/book/en/v2>
 
 ## Changelog
 

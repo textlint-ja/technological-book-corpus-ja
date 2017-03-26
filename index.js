@@ -22,6 +22,11 @@ const References = {
         name: "The-Little-Book-on-CoffeeScript",
         url: "https://github.com/minghai/library/tree/gh-pages",
         license: "https://github.com/minghai/library/tree/gh-pages"
+    },
+    "progit": {
+        name: "progit",
+        url: "https://github.com/progit/progit",
+        license: "https://git-scm.com/book/en/v2"
     }
 };
 
