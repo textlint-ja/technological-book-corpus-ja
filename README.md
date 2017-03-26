@@ -12,6 +12,36 @@ Install with [npm](https://www.npmjs.com/):
 
 ## Usage
 
+### CLI
+
+```
+$ npm i -g technological-book-corpus-ja
+$ technological-book-corpus-ja
+/Users/technological-book-corpus-jasource/js-primer/array/README.md
+/Users/technological-book-corpus-ja/source/js-primer/comments/README.md
+/Users/technological-book-corpus-ja/source/js-primer/condition/README.md
+/Users/technological-book-corpus-ja/source/js-primer/data-type/README.md
+/Users/technological-book-corpus-ja/source/js-primer/function-method/README.md
+/Users/technological-book-corpus-ja/source/js-primer/implicit-coercion/README.md
+/Users/technological-book-corpus-ja/source/js-primer/introduction/README.md
+/Users/technological-book-corpus-ja/source/js-primer/loop/README.md
+/Users/technological-book-corpus-ja/source/js-primer/object/README.md
+/Users/technological-book-corpus-ja/source/js-primer/operator/README.md
+/Users/technological-book-corpus-ja/source/js-primer/read-eval-print/README.md
+/Users/technological-book-corpus-ja/source/js-primer/README.md
+/Users/technological-book-corpus-ja/source/js-primer/statement-expression/README.md
+/Users/technological-book-corpus-ja/source/js-primer/string/README.md
+/Users/technological-book-corpus-ja/source/js-primer/variables/README.md
+```
+
+パターンでの絞り込みもできます。
+
+```
+$ technological-book-corpus-ja "/**/js-primer/**/*.md"
+```
+
+### Node.js
+
 ```js
 const References = {
     "JavaScript-Plugin-Architecture": {

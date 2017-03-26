@@ -12,7 +12,10 @@
   "name": "technological-book-corpus-ja",
   "version": "1.0.0",
   "description": "日本語で書かれた技術書のコーパス",
-  "main": "lib/technological-book-corpus-ja.js",
+  "main": "lib/index.js",
+  "bin": {
+    "technological-book-corpus-ja.js": "./bin/technological-book-corpus-ja.js"
+  },
   "scripts": {
     "build": "node build.js",
     "update-refs": "git submodule foreach git pull",
