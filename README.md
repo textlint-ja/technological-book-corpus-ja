@@ -113,6 +113,12 @@ module.exports.get = function get(ext = ".*") {};
 - [Hatena-Textbook](https://github.com/hatena/Hatena-Textbook)
   - License: <https://github.com/hatena/Hatena-Textbook#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>
 
+## 文書の追加方法
+
+1. `git submodule add <追加するGit URL> repo/<name>`
+1. `index.js`の`References`に定義を追加する
+1. `build.js`の`copyTask`に文書のみをコピーする処理を追加する
+
 ## Changelog
 
 See [Releases page](https://github.com/textlint-ja/technological-book-corpus-ja/releases).
