@@ -16,7 +16,8 @@
   "scripts": {
     "build": "gulp",
     "update-refs": "git submodule foreach git pull",
-    "test": "mocha"
+    "test": "npm run build && mocha",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "textlint",
