@@ -32,6 +32,11 @@ const References = {
         name: "what-is-maven",
         url: "https://github.com/KengoTODA/what-is-maven",
         license: "https://github.com/KengoTODA/what-is-maven/blob/master/preface.md#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9"
+    },
+    "Hatena-Textbook": {
+        name: "Hatena-Textbook",
+        url: "https://github.com/hatena/Hatena-Textbook",
+        license: "https://github.com/hatena/Hatena-Textbook#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9"
     }
 };
 

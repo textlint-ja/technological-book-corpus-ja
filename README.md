@@ -96,6 +96,8 @@ module.exports.get = function get(ext = ".*") {};
   - License: <https://git-scm.com/book/en/v2>
 - [what-is-maven](https://github.com/KengoTODA/what-is-maven)
   - License: <https://github.com/KengoTODA/what-is-maven/blob/master/preface.md#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>
+- [Hatena-Textbook](https://github.com/hatena/Hatena-Textbook)
+  - License: <https://github.com/hatena/Hatena-Textbook#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>
 
 ## Changelog
 

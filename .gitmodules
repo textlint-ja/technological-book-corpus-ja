@@ -17,3 +17,6 @@
 [submodule "repo/what-is-maven"]
 	path = repo/what-is-maven
 	url = https://github.com/KengoTODA/what-is-maven
+[submodule "repo/Hatena-Textbook"]
+	path = repo/Hatena-Textbook
+	url = https://github.com/hatena/Hatena-Textbook

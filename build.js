@@ -38,6 +38,7 @@ function copyTask() {
         copy(Refs["The-Little-Book-on-CoffeeScript"], "coffeescript/chapters/ja_JP/**/*.md"),
         copy(Refs["progit"], "ja/**/*.{md,markdown}"),
         copy(Refs["what-is-maven"], "{deploy,implement-plugin,module,primer}/**/*.md"),
+        copy(Refs["Hatena-Textbook"], "/**/*.md"),
     ]);
 }
 
