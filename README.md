@@ -19,8 +19,9 @@
 ## 利用目的
 
 - [textlint](https://github.com/textlint/textlint "textlint")ルールのテストのfixtureとして
+    - 文書は逐次更新されるため、自動テストには適していません
 
-例) コーパスに含まれている文章に対してtextlintでチェックしていとしない結果がないかを確かめる
+例) コーパスに含まれている文章に対してtextlintでチェックして意図しない結果がないかを確かめる
 
 ```sh
 npm i -g textlint technological-book-corpus-ja
