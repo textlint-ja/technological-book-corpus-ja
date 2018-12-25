@@ -25,9 +25,20 @@
 
 ```sh
 npm i -g textlint technological-book-corpus-ja
-# 試したいルールをlib/において試す
-technological-book-corpus-ja  | xargs textlint --rulesdir lib/ -f pretty-error
+# --rule でルール名を指定する
+technological-book-corpus-ja | xargs textlint --rule textlint-no-todo -f pretty-error
 ```
+
+開発中のルールをコーパスでテストする方法。
+
+ルールのプロジェクトディレクトリでルール自体を`.`でグローバルインストールする。
+
+```sh
+npm i -g . textlint technological-book-corpus-ja
+# --rule でルール名を指定する
+technological-book-corpus-ja | xargs textlint --rule textlint-my-rule -f pretty-error
+```
+
 
 ## Install
 
@@ -103,9 +114,9 @@ module.exports.get = function get(ext = ".*") {};
 - [JavaScript-Plugin-Architecture](https://github.com/azu/JavaScript-Plugin-Architecture)
   - License: <https://github.com/azu/JavaScript-Plugin-Architecture#license>
 - [Introduction-to-Add-on-Development-in-Blender](https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender)
-  - License: <https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender/blob/draft/LICENSE>
+  - License: <https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender/blob/release/LICENSE>
 - [The-Little-Book-on-CoffeeScript](https://github.com/minghai/library/tree/gh-pages)
-  - License: <https://github.com/minghai/library/tree/gh-pages>
+  - License: <https://github.com/minghai/library/blob/gh-pages/coffeescript/LICENSE>
 - [progit](https://github.com/progit/progit)
   - License: <https://git-scm.com/book/en/v2>
 - [what-is-maven](https://github.com/KengoTODA/what-is-maven)
