@@ -36,7 +36,7 @@ technological-book-corpus-ja | xargs textlint --rule textlint-no-todo -f pretty-
 ```sh
 npm i -g . textlint technological-book-corpus-ja
 # --rule でルール名を指定する
-technological-book-corpus-ja | xargs textlint --rule textlint-my-rule -f pretty-error
+technological-book-corpus-ja | xargs textlint --rule textlint-my-rule -f pretty-error --no-textlintrc
 ```
 
 
