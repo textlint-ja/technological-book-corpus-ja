@@ -1,9 +1,6 @@
 [submodule "repo/JavaScript-Plugin-Architecture"]
 	path = repo/JavaScript-Plugin-Architecture
 	url = https://github.com/azu/JavaScript-Plugin-Architecture
-[submodule "repo/Introduction-to-Add-on-Development-in-Blender"]
-	path = repo/Introduction-to-Add-on-Development-in-Blender
-	url = https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender
 [submodule "repo/The-Little-Book-on-CoffeeScript"]
 	path = repo/The-Little-Book-on-CoffeeScript
 	url = https://github.com/minghai/library
@@ -20,3 +17,9 @@
 [submodule "repo/Hatena-Textbook"]
 	path = repo/Hatena-Textbook
 	url = https://github.com/hatena/Hatena-Textbook
+[submodule "repo/build-web-application-with-golang"]
+	path = repo/build-web-application-with-golang
+	url = https://github.com/astaxie/build-web-application-with-golang.git
+[submodule "repo/Introduction-to-Addon-Development-in-Blender-Web"]
+	path = repo/Introduction-to-Addon-Development-in-Blender-Web
+	url = https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web

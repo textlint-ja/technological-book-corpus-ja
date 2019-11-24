@@ -19,7 +19,7 @@
 ## 利用目的
 
 - [textlint](https://github.com/textlint/textlint "textlint")ルールのテストのfixtureとして
-    - 文書は逐次更新されるため、自動テストには適していません
+  - 文書は逐次更新されるため、自動テストには適していません
 
 例) コーパスに含まれている文章に対してtextlintでチェックして意図しない結果がないかを確かめる
 
@@ -38,7 +38,6 @@ npm i -g . textlint technological-book-corpus-ja
 # --rule でルール名を指定する
 technological-book-corpus-ja | xargs textlint --rule textlint-my-rule -f pretty-error --no-textlintrc
 ```
-
 
 ## Install
 
@@ -113,22 +112,24 @@ module.exports.get = function get(ext = ".*") {};
   - License: <https://github.com/asciidwango/js-primer/blob/master/LICENSE>
 - [JavaScript-Plugin-Architecture](https://github.com/azu/JavaScript-Plugin-Architecture)
   - License: <https://github.com/azu/JavaScript-Plugin-Architecture#license>
-- [Introduction-to-Add-on-Development-in-Blender](https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender)
-  - License: <https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender/blob/release/LICENSE>
+- [Introduction-to-Addon-Development-in-Blender-Web](https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web)
+  - License: <https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web/blob/master/LICENSE>
 - [The-Little-Book-on-CoffeeScript](https://github.com/minghai/library/tree/gh-pages)
-  - License: <https://github.com/minghai/library/blob/gh-pages/coffeescript/LICENSE>
+  - License: <https://github.com/minghai/library/tree/gh-pages>
 - [progit](https://github.com/progit/progit)
   - License: <https://git-scm.com/book/en/v2>
 - [what-is-maven](https://github.com/KengoTODA/what-is-maven)
   - License: <https://github.com/KengoTODA/what-is-maven/blob/master/preface.md#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>
 - [Hatena-Textbook](https://github.com/hatena/Hatena-Textbook)
   - License: <https://github.com/hatena/Hatena-Textbook#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>
+- [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
+  - License: <https://github.com/astaxie/build-web-application-with-golang/blob/master/LICENSE.md>
 
 ## 文書の追加方法
 
 1. `git submodule add <追加するGit URL> repo/<name>`
-1. `index.js`の`References`に定義を追加する
-1. `build.js`の`copyTask`に文書のみをコピーする処理を追加する
+2. `index.js`の`References`に定義を追加する
+3. `build.js`の`copyTask`に文書のみをコピーする処理を追加する
 
 ## Changelog
 

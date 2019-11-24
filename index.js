@@ -13,10 +13,10 @@ const References = {
         url: "https://github.com/azu/JavaScript-Plugin-Architecture",
         license: "https://github.com/azu/JavaScript-Plugin-Architecture#license"
     },
-    "Introduction-to-Add-on-Development-in-Blender": {
-        name: "Introduction-to-Add-on-Development-in-Blender",
-        url: "https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender",
-        license: "https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender/blob/draft/LICENSE"
+    "Introduction-to-Addon-Development-in-Blender-Web": {
+        name: "Introduction-to-Addon-Development-in-Blender-Web",
+        url: "https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web",
+        license: "https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web/blob/master/LICENSE"
     },
     "The-Little-Book-on-CoffeeScript": {
         name: "The-Little-Book-on-CoffeeScript",
@@ -37,6 +37,11 @@ const References = {
         name: "Hatena-Textbook",
         url: "https://github.com/hatena/Hatena-Textbook",
         license: "https://github.com/hatena/Hatena-Textbook#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9"
+    },
+    "build-web-application-with-golang": {
+        name: "build-web-application-with-golang",
+        url: "https://github.com/astaxie/build-web-application-with-golang",
+        license: "https://github.com/astaxie/build-web-application-with-golang/blob/master/LICENSE.md"
     }
 };
 
@@ -50,7 +55,7 @@ const sourceDir = path.join(__dirname, "source");
 function findByPattern(patterns) {
     return globby.sync(patterns, {
         root: sourceDir,
-        nodir: true
+        nodir: true,
     });
 }
 /**
@@ -60,7 +65,7 @@ function findByPattern(patterns) {
  * e.g) ".md"
  */
 function get(ext = ".*") {
-    return findByPattern(`/**/*${ext}`);
+    return findByPattern(`**/*${ext}`);
 }
 module.exports.References = References;
 module.exports.findByPattern = findByPattern;
