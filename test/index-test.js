@@ -22,6 +22,7 @@ describe("technological-book-corpus-ja", () => {
     describe("#findByPattern(ext)", () => {
         it("should get all files that match pattern", () => {
             const files = corpus.findByPattern("/JavaScript-Plugin-Architecture/**/*.md");
+            assert.ok(files.length > 0);
             files.every(filePath => {
                 assert(filePath.includes("JavaScript-Plugin-Architecture/"));
             });

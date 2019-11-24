@@ -46,6 +46,7 @@ const References = {
 };
 
 const sourceDir = path.join(__dirname, "source");
+
 /**
  * get files by glob pattern
  * @param {string} patterns glob pattern
@@ -53,11 +54,11 @@ const sourceDir = path.join(__dirname, "source");
  * @see https://github.com/isaacs/node-glob
  */
 function findByPattern(patterns) {
-    return globby.sync(patterns, {
-        root: sourceDir,
-        nodir: true,
+    return globby.sync(path.join(sourceDir, patterns), {
+        nodir: true
     });
 }
+
 /**
  * get files by type
  * default all files
@@ -65,8 +66,9 @@ function findByPattern(patterns) {
  * e.g) ".md"
  */
 function get(ext = ".*") {
-    return findByPattern(`**/*${ext}`);
+    return findByPattern(`/**/*${ext}`);
 }
+
 module.exports.References = References;
 module.exports.findByPattern = findByPattern;
 module.exports.get = get;
