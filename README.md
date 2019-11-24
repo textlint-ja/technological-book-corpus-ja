@@ -20,7 +20,7 @@
 
 ## 利用目的
 
-- [textlint](https://github.com/textlint/textlint "textlint")ルールのテストのfixtureとして
+- [textlint](https://github.com/textlint/textlint "textlint")ルールのテストのfixtureとして利用する
   - 文書は逐次更新されるため、自動テストには適していません
 
 例) コーパスに含まれている文章に対してtextlintでチェックして意図しない結果がないかを確かめる
