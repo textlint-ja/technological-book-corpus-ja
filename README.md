@@ -1,4 +1,4 @@
-# technological-book-corpus-ja
+# technological-book-corpus-ja [![Build Status](https://travis-ci.org/textlint-ja/technological-book-corpus-ja.svg?branch=master)](https://travis-ci.org/textlint-ja/technological-book-corpus-ja)
 
 日本語技術書のコーパス。
 
