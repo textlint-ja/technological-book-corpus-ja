@@ -33,12 +33,14 @@ technological-book-corpus-ja | xargs textlint --rule textlint-no-todo -f pretty-
 
 開発中のルールをコーパスでテストする方法。
 
-ルールのプロジェクトディレクトリでルール自体を`.`でグローバルインストールする。
+`--prefix tmp/`で一時的なディレクトリにインストールして確認する。
 
 ```sh
-npm i -g . textlint technological-book-corpus-ja
+mkdir tmp/
+npm i . textlint technological-book-corpus-ja --prefix tmp/
+cd tmp
 # --rule でルール名を指定する
-technological-book-corpus-ja | xargs textlint --rule textlint-my-rule -f pretty-error --no-textlintrc
+technological-book-corpus-ja | xargs textlint --rule textlint-rule-my-rule -f pretty-error --no-textlintrc
 ```
 
 ## Install
@@ -65,7 +67,7 @@ Install with [npm](https://www.npmjs.com/):
     /Users/technological-book-corpus-ja/source/js-primer/operator/README.md
     /Users/technological-book-corpus-ja/source/js-primer/read-eval-print/README.md
     /Users/technological-book-corpus-ja/source/js-primer/README.md
-    /Users/technological-book-corpus-ja/source/js-primer/statement-expression/README.md
+     /Users/technological-book-corpus-ja/source/js-primer/statement-expression/README.md
     /Users/technological-book-corpus-ja/source/js-primer/string/README.md
     /Users/technological-book-corpus-ja/source/js-primer/variables/README.md
 
