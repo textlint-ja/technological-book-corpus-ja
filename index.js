@@ -1,7 +1,11 @@
 // MIT © 2017 azu
 "use strict";
-const globby = require('globby');
-const path = require("path");
+import { globbySync} from "globby";
+import url from "node:url";
+import path from "node:path";
+const __filename__ = url.fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename__);
+
 const References = {
     "js-primer": {
         name: "js-primer",
@@ -54,7 +58,7 @@ const sourceDir = path.join(__dirname, "source");
  * @see https://github.com/isaacs/node-glob
  */
 function findByPattern(patterns) {
-    return globby.sync(path.join(sourceDir, patterns), {
+    return globbySync(path.join(sourceDir, patterns), {
         nodir: true
     });
 }
@@ -69,6 +73,8 @@ function get(ext = ".*") {
     return findByPattern(`/**/*${ext}`);
 }
 
-module.exports.References = References;
-module.exports.findByPattern = findByPattern;
-module.exports.get = get;
+export {
+    References,
+    findByPattern,
+    get
+};
