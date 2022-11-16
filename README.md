@@ -113,27 +113,37 @@ module.exports.get = function get(ext = ".*") {};
 それぞれの文書のライセンスに基づき再配布されています。
 
 - [js-primer](https://github.com/asciidwango/js-primer)
-  - License: <https://github.com/asciidwango/js-primer/blob/master/LICENSE>
+  - License: CC BY-NC <https://github.com/asciidwango/js-primer/blob/master/LICENSE>
 - [JavaScript-Plugin-Architecture](https://github.com/azu/JavaScript-Plugin-Architecture)
-  - License: <https://github.com/azu/JavaScript-Plugin-Architecture#license>
+  - License: CC BY-NC <https://github.com/azu/JavaScript-Plugin-Architecture#license>
 - [Introduction-to-Addon-Development-in-Blender-Web](https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web)
-  - License: <https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web/blob/master/LICENSE>
+  - License: CC BY <https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web/blob/master/LICENSE>
 - [The-Little-Book-on-CoffeeScript](https://github.com/minghai/library/tree/gh-pages)
-  - License: <https://github.com/minghai/library/tree/gh-pages>
+  - License: MIT <https://github.com/minghai/library/blob/gh-pages/coffeescript/LICENSE>
 - [progit](https://github.com/progit/progit)
-  - License: <https://git-scm.com/book/en/v2>
+  - License: CC BY-NC-SA 3.0 <https://git-scm.com/book/en/v2>
 - [what-is-maven](https://github.com/KengoTODA/what-is-maven)
-  - License: <https://github.com/KengoTODA/what-is-maven/blob/main/preface/README.md>
+  - License: CC BY-NC 4.0 <https://github.com/KengoTODA/what-is-maven/blob/main/preface/README.md>
 - [Hatena-Textbook](https://github.com/hatena/Hatena-Textbook)
-  - License: <https://github.com/hatena/Hatena-Textbook#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>
+  - License: CC BY-NC-SA 2.0 <https://github.com/hatena/Hatena-Textbook#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>
 - [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
-  - License: <https://github.com/astaxie/build-web-application-with-golang/blob/master/LICENSE.md>
+  - License: BSD 3-Clause <https://github.com/astaxie/build-web-application-with-golang/blob/master/LICENSE.md>
+- [Go-SCP-jaJP](https://github.com/techtouch-inc/Go-SCP-jaJP)
+  - License: CC BY-SA 4.0 <https://github.com/techtouch-inc/Go-SCP-jaJP#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>
 
 ## 文書の追加方法
 
 1. `git submodule add <追加するGit URL> repo/<name>`
 2. `index.js`の`References`に定義を追加する
 3. `build.js`の`copyTask`に文書のみをコピーする処理を追加する
+
+## 文書の更新方法
+
+次のコマンドでsubmoduleを更新できる。
+
+1. `npm run update-refs`
+
+文書の構造が変わっていないかを確認し、build.jsを修正する
 
 ## Changelog
 

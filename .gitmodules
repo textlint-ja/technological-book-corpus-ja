@@ -23,3 +23,6 @@
 [submodule "repo/Introduction-to-Addon-Development-in-Blender-Web"]
 	path = repo/Introduction-to-Addon-Development-in-Blender-Web
 	url = https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web
+[submodule "repo/Go-SCP-jaJP"]
+	path = repo/Go-SCP-jaJP
+	url = https://github.com/techtouch-inc/Go-SCP-jaJP.git
