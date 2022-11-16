@@ -45,6 +45,7 @@ function copyTask() {
         copy(Refs["what-is-maven"], "{deploy,implement-plugin,module,primer}/**/*.md"),
         copy(Refs["Hatena-Textbook"], "/**/*.md"),
         copy(Refs["build-web-application-with-golang"], "ja/**/{0,1}*.md"),
+        copy(Refs["Go-SCP-jaJP"], "src/**/*.md"),
     ]);
 }
 
