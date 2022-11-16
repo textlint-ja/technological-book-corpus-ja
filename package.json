@@ -19,7 +19,7 @@
   },
   "scripts": {
     "build": "node build.js",
-    "update-refs": "git submodule foreach git pull",
+    "update-refs": "git submodule update --recursive --remote",
     "test": "npm run build && mocha",
     "prepublish": "npm run build"
   },

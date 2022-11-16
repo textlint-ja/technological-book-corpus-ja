@@ -26,7 +26,7 @@
 例) コーパスに含まれている文章に対してtextlintでチェックして意図しない結果がないかを確かめる
 
 ```sh
-npm i -g textlint technological-book-corpus-ja
+npm install --global textlint technological-book-corpus-ja
 # --rule でルール名を指定する
 technological-book-corpus-ja | xargs textlint --rule textlint-no-todo -f pretty-error
 ```
@@ -37,7 +37,7 @@ technological-book-corpus-ja | xargs textlint --rule textlint-no-todo -f pretty-
 
 ```sh
 mkdir tmp/
-npm i . textlint technological-book-corpus-ja --prefix tmp/
+npm install --save-dev . textlint technological-book-corpus-ja --prefix tmp/
 cd tmp
 # --rule でルール名を指定する
 technological-book-corpus-ja | xargs textlint --rule textlint-rule-my-rule -f pretty-error --no-textlintrc
@@ -67,7 +67,7 @@ Install with [npm](https://www.npmjs.com/):
     /Users/technological-book-corpus-ja/source/js-primer/operator/README.md
     /Users/technological-book-corpus-ja/source/js-primer/read-eval-print/README.md
     /Users/technological-book-corpus-ja/source/js-primer/README.md
-     /Users/technological-book-corpus-ja/source/js-primer/statement-expression/README.md
+    /Users/technological-book-corpus-ja/source/js-primer/statement-expression/README.md
     /Users/technological-book-corpus-ja/source/js-primer/string/README.md
     /Users/technological-book-corpus-ja/source/js-primer/variables/README.md
 
