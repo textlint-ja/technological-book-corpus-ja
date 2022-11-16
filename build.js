@@ -1,12 +1,16 @@
 // MIT © 2017 azu
 "use strict";
-const cpx = require("cpx");
-const path = require("path");
+import cpx from "cpx";
+import url from "node:url";
+import path from "node:path";
+import fs from "fs";
+import addTextToMarkdown from "add-text-to-markdown";
+import { References as Refs } from "./index.js";
+
+const __filename__ = url.fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename__);
 const repoDir = path.join(__dirname, "repo");
 const sourceDir = path.join(__dirname, "source");
-const fs = require("fs");
-const addTextToMarkdown = require("add-text-to-markdown");
-const Refs = require("./index").References;
 
 /**
  *

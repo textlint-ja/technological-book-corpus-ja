@@ -13,6 +13,7 @@
   "version": "2.0.1",
   "description": "日本語で書かれた技術書のコーパス",
   "main": "lib/index.js",
+  "type": "module",
   "bin": {
     "technological-book-corpus-ja": "./bin/technological-book-corpus-ja.js"
   },
@@ -38,11 +39,11 @@
   },
   "homepage": "https://github.com/textlint-ja/technological-book-corpus-ja",
   "dependencies": {
-    "globby": "^10.0.1"
+    "globby": "^13.1.2"
   },
   "devDependencies": {
     "add-text-to-markdown": "^2.0.0",
     "cpx": "^1.5.0",
-    "mocha": "^6.2.2"
+    "mocha": "^10.1.0"
   }
 }

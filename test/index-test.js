@@ -1,8 +1,9 @@
 // MIT © 2017 azu
 "use strict";
-const assert = require("assert");
-const path = require("path");
-const corpus = require("../index");
+import assert from "assert";
+import path from "path";
+import * as corpus from "../index.js";
+
 describe("technological-book-corpus-ja", () => {
     describe("#get", () => {
         it("should get all files", () => {
