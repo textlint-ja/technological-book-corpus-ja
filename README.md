@@ -37,10 +37,10 @@ technological-book-corpus-ja | xargs textlint --rule textlint-no-todo -f pretty-
 
 ```sh
 mkdir tmp/
-npm install --save-dev . textlint technological-book-corpus-ja --prefix tmp/
+npm install --save-dev textlint-rule-preset-ja-technical-writing textlint technological-book-corpus-ja --prefix tmp/
 cd tmp
 # --rule でルール名を指定する
-technological-book-corpus-ja | xargs textlint --rule textlint-rule-my-rule -f pretty-error --no-textlintrc
+./node_modules/.bin/technological-book-corpus-ja | xargs ./node_modules/.bin/textlint --rule textlint-rule-my-rule -f pretty-error --no-textlintrc
 ```
 
 ## Install
