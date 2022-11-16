@@ -13,6 +13,7 @@
   "version": "2.0.1",
   "description": "日本語で書かれた技術書のコーパス",
   "main": "lib/index.js",
+  "type": "module",
   "bin": {
     "technological-book-corpus-ja": "./bin/technological-book-corpus-ja.js"
   },
