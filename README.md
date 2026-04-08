@@ -107,19 +107,19 @@ console.log(References);
 それぞれの文書のライセンスに基づき再配布されています。
 
 - [js-primer](https://github.com/asciidwango/js-primer)
-  - License: CC BY-NC <https://github.com/asciidwango/js-primer/blob/master/LICENSE>
+  - License: 本文 CC BY-NC 4.0 / コード MIT <https://github.com/asciidwango/js-primer/blob/master/LICENSE>
 - [JavaScript-Plugin-Architecture](https://github.com/azu/JavaScript-Plugin-Architecture)
-  - License: CC BY-NC <https://github.com/azu/JavaScript-Plugin-Architecture#license>
+  - License: 本文 CC BY-NC 4.0 / コード MIT <https://github.com/azu/JavaScript-Plugin-Architecture#license>
 - [Introduction-to-Addon-Development-in-Blender-Web](https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web)
-  - License: CC BY <https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web/blob/master/LICENSE>
+  - License: 本文 CC BY 2.1 JP / コード CC0 <https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web/blob/master/LICENSE>
 - [The-Little-Book-on-CoffeeScript](https://github.com/minghai/library/tree/gh-pages)
   - License: MIT <https://github.com/minghai/library/blob/gh-pages/coffeescript/LICENSE>
 - [progit](https://github.com/progit/progit)
   - License: CC BY-NC-SA 3.0 <https://git-scm.com/book/en/v2>
 - [what-is-maven](https://github.com/KengoTODA/what-is-maven)
-  - License: CC BY-NC 4.0 <https://github.com/KengoTODA/what-is-maven/blob/main/preface/README.md>
+  - License: 本文 CC BY-NC 4.0 / コード Apache 2.0 <https://github.com/KengoTODA/what-is-maven/blob/main/preface/README.md>
 - [Hatena-Textbook](https://github.com/hatena/Hatena-Textbook)
-  - License: CC BY-NC-SA 2.0 <https://github.com/hatena/Hatena-Textbook#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>
+  - License: CC BY-NC-SA 2.1 JP <https://github.com/hatena/Hatena-Textbook#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>
 - [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
   - License: BSD 3-Clause <https://github.com/astaxie/build-web-application-with-golang/blob/master/LICENSE.md>
 - [Go-SCP-jaJP](https://github.com/techtouch-inc/Go-SCP-jaJP)

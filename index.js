@@ -10,17 +10,17 @@ const References = {
     "js-primer": {
         name: "js-primer",
         url: "https://github.com/asciidwango/js-primer",
-        license: "CC BY-NC <https://github.com/asciidwango/js-primer/blob/master/LICENSE>"
+        license: "本文 CC BY-NC 4.0 / コード MIT <https://github.com/asciidwango/js-primer/blob/master/LICENSE>"
     },
     "JavaScript-Plugin-Architecture": {
         name: "JavaScript-Plugin-Architecture",
         url: "https://github.com/azu/JavaScript-Plugin-Architecture",
-        license: "CC BY-NC <https://github.com/azu/JavaScript-Plugin-Architecture#license>"
+        license: "本文 CC BY-NC 4.0 / コード MIT <https://github.com/azu/JavaScript-Plugin-Architecture#license>"
     },
     "Introduction-to-Addon-Development-in-Blender-Web": {
         name: "Introduction-to-Addon-Development-in-Blender-Web",
         url: "https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web",
-        license: "CC BY <https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web/blob/master/LICENSE>"
+        license: "本文 CC BY 2.1 JP / コード CC0 <https://github.com/nutti/Introduction-to-Addon-Development-in-Blender-Web/blob/master/LICENSE>"
     },
     "The-Little-Book-on-CoffeeScript": {
         name: "The-Little-Book-on-CoffeeScript",
@@ -35,12 +35,12 @@ const References = {
     "what-is-maven": {
         name: "what-is-maven",
         url: "https://github.com/KengoTODA/what-is-maven",
-        license: "CC BY-NC 4.0 <https://github.com/KengoTODA/what-is-maven/blob/main/preface/README.md>"
+        license: "本文 CC BY-NC 4.0 / コード Apache 2.0 <https://github.com/KengoTODA/what-is-maven/blob/main/preface/README.md>"
     },
     "Hatena-Textbook": {
         name: "Hatena-Textbook",
         url: "https://github.com/hatena/Hatena-Textbook",
-        license: "CC BY-NC-SA 2.0 <https://github.com/hatena/Hatena-Textbook#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>"
+        license: "CC BY-NC-SA 2.1 JP <https://github.com/hatena/Hatena-Textbook#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9>"
     },
     "build-web-application-with-golang": {
         name: "build-web-application-with-golang",
