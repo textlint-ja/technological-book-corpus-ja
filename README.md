@@ -77,35 +77,29 @@ Install with [npm](https://www.npmjs.com/):
 
 ### Node.js
 
+ESM (`"type": "module"`) として提供しています。
+
 ```js
-const References = {
-    "JavaScript-Plugin-Architecture": {
-        name: "JavaScript-Plugin-Architecture",
-        url: "https://github.com/azu/JavaScript-Plugin-Architecture",
-        license: "https://github.com/azu/JavaScript-Plugin-Architecture#license"
-    },
-    "Introduction-to-Add-on-Development-in-Blender": {
-        name: "Introduction-to-Add-on-Development-in-Blender",
-        url: "https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender",
-        license: "https://github.com/nutti/Introduction-to-Add-on-Development-in-Blender/blob/draft/LICENSE"
-    },
-    ...
-};
-/**
- * get files by glob pattern
- * @param {string} patterns glob pattern
- * "/" root is source directory
- * @see https://github.com/isaacs/node-glob
- */
-module.exports.findByPattern = function findByPattern(patterns) {};
-/**
- * get files by type
- * default all files
- * @param {string} ext
- * e.g) ".md"
- */
-module.exports.get = function get(ext = ".*") {};
+import { References, findByPattern, get } from "technological-book-corpus-ja";
+
+// すべてのファイルを取得する
+const allFiles = get();
+
+// 拡張子を指定して取得する
+const markdownFiles = get(".md");
+
+// glob パターンで絞り込む ("/" は source ディレクトリのルート)
+const jsPrimerFiles = findByPattern("/**/js-primer/**/*.md");
+
+// 収録文書のメタデータ
+console.log(References);
 ```
+
+エクスポートしている API:
+
+- `References`: 収録文書の名前・URL・ライセンス情報をまとめたオブジェクト
+- `findByPattern(patterns)`: glob パターンに一致するファイルパスを返す
+- `get(ext = ".*")`: 指定した拡張子のファイルパスを返す（デフォルトはすべてのファイル）
 
 ## References
 
@@ -141,7 +135,7 @@ module.exports.get = function get(ext = ".*") {};
 
 次のコマンドでsubmoduleを更新できる。
 
-1. `npm run update-refs`
+1. `pnpm run update-refs`
 
 文書の構造が変わっていないかを確認し、build.jsを修正する
 
@@ -151,9 +145,9 @@ See [Releases page](https://github.com/textlint-ja/technological-book-corpus-ja/
 
 ## Running tests
 
-Install devDependencies and Run `npm test`:
+Install devDependencies and Run `pnpm test`:
 
-    npm i -d && npm test
+    pnpm install && pnpm test
 
 ## Contributing
 
